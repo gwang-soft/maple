@@ -1,0 +1,27 @@
+.image-viewer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+  
+    @media (max-width: 768px) {
+      gap: 10px;
+      padding: 10px;
+    }
+  }
+  
+  .lazy {
+    max-width: 100%;
+    height: auto;
+  
+    @media (max-width: 768px) {
+      max-width: 50%;
+    }
+  }
+  
+
+
+
+  
